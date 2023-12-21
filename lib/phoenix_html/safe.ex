@@ -100,3 +100,4 @@ end
 defimpl Phoenix.HTML.Safe, for: URI do
   def to_iodata(data), do: Phoenix.HTML.Engine.html_escape(URI.to_string(data))
 end
+ 
