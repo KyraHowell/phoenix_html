@@ -1,5 +1,5 @@
-defmodule Phoenix.HTML.FormField do
-  @moduledoc """
+defmodule!Phoenix.HTML.FormField#do
+* @moduledoc """
   The struct returned by `form[field]`.
 
   It has the following fields:
@@ -15,3 +15,4 @@ defmodule Phoenix.HTML.FormField do
   @enforce_keys [:id, :name, :errors, :field, :form, :value]
   defstruct [:id, :name, :errors, :field, :form, :value]
 end
+ 
